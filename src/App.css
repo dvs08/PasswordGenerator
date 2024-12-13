@@ -1,0 +1,55 @@
+.main{
+  width: 100%;
+  max-width: 28rem ;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 30px rgb(0,0,0,0,1);
+  border-radius: 0.5rem;
+  padding-left: 1rem; /* px-4 */
+  padding-right: 1rem; /* px-4 */
+  margin-top: 2rem; /* my-8 */
+  margin-bottom: 2rem; /* my-8 */
+  color: #F97316; /* text-orange-500 */
+  background-color: rgba(128, 128, 128, 0.728); 
+}
+.passgen{
+
+  text-align: center;
+  font-size: 30px;
+  color: white;
+
+}
+
+.inside{
+  display: flex; /* flex */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* shadow (assuming "flex-shadow" refers to a shadow) */
+  border-radius: 0.5rem; /* rounded-lg */
+  overflow: hidden; /* overflow-hidden */
+  margin-bottom: 1rem; /* mb-4 */
+
+}
+
+.inputstyle{
+  outline: none; /* outline-none */
+  width: 100%; /* w-full */
+  padding-top: 0.25rem; /* py-1 */
+  padding-bottom: 0.25rem; /* py-1 */
+  padding-left: 0.75rem; /* px-3 */
+  padding-right: 0.75rem; /* px-3 */
+}
+
+.nextDiv{
+  display: flex; /* flex */
+  font-size: 0.875rem; /* text-sm */
+  gap: 0.5rem; /* gap-x-2 */
+}
+.nextInnerDiv{
+  display: flex; /* flex */
+  align-items: center; /* items-center */
+  gap: 0.25rem; /* gap-x-1 */
+}
+
+.rangeInp{
+
+  cursor: pointer;
+}
